@@ -5,7 +5,7 @@
 Summary:	%{_class}_%{_subclass} - an interface for creating simple JS scripts
 Summary(pl):	%{_class}_%{_subclass} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
-Version:	0.9.2
+Version:	1.0.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides an interface for creating simple JS scripts.
 
 %description -l pl
-Dostarcza interfejs do tworzenia prostego skryptów JavaScriptu.
+Dostarcza interfejs do tworzenia prostych skryptów JavaScriptu.
 
 %prep
 %setup -q -c
