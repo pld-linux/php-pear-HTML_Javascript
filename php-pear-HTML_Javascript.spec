@@ -26,12 +26,16 @@ Provides two classes:
 Allow output data to a file, to the standart output (print), or
 return.
 
+In PEAR status of this package is: %{_status}.
+
 %description -l pl
 HTML_Javascript dostarcza dwie klasy:
 - HTML_Javascript do wykonywania podstawowych operacji JavaScript
 - HTML_Javascript_Convert do konwersji zmiennych
 Mo¿liwe jest zapisanie wyniku do pliku, na standardowe wyj¶cie
 (wypisanie) lub po prostu zwrócenie jako zmiennej.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
