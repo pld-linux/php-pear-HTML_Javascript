@@ -8,7 +8,7 @@ Summary:	%{_pearname} - an interface for creating simple JS scripts
 Summary(pl):	%{_pearname} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 # Source0-md5:	90e4d45617b9f57d2475994b10827715
