@@ -23,14 +23,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides two classes:
 - HTML_Javascript for performing basic JS operations
 - HTML_Javascript_Convert for converting variables
-Allow output data to a file, to the standart output(print), or return
+Allow output data to a file, to the standart output (print), or
+return.
 
 %description -l pl
 HTML_Javascript dostarcza dwie klasy:
 - HTML_Javascript do wykonywania podstawowych operacji JavaScript
-- HTML_Javascript_Convert w celu konwersji zmiennych
+- HTML_Javascript_Convert do konwersji zmiennych
 Mo¿liwe jest zapisanie wyniku do pliku, na standardowe wyj¶cie
-(wydrukowanie) lub po prostu zwrócenie jako zmiennej.
+(wypisanie) lub po prostu zwrócenie jako zmiennej.
 
 %prep
 %setup -q -c
