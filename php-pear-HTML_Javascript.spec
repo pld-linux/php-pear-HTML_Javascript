@@ -5,7 +5,7 @@
 Summary:	%{_class}_%{_subclass} - an interface for creating simple JS scripts
 Summary(pl):	%{_class}_%{_subclass} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
-Version:	0.9
+Version:	0.9.2
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
@@ -27,13 +27,16 @@ Dostarcza interfejs do tworzenia prostego skryptów JavaScriptu.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}
+install -d $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}
 
 install %{_pearname}-%{version}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/
+install %{_pearname}-%{version}/%{_subclass}/*.php $RPM_BUILD_ROOT%{php_pear_dir}/%{_class}/%{_subclass}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{php_pear_dir}/%{_class}/%{_subclass}
 %{php_pear_dir}/%{_class}/*.php
+%{php_pear_dir}/%{_class}/%{_subclass}/*.php
