@@ -2,8 +2,8 @@
 %define		_class		HTML
 %define		_subclass	Javascript
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - an interface for creating simple JS scripts
-Summary(pl):	%{_class}_%{_subclass} - interfejs do tworzenia prostego JS
+Summary:	%{_pearname} - an interface for creating simple JS scripts
+Summary(pl):	%{_pearname} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
 Release:	1
