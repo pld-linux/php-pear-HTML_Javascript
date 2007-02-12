@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an interface for creating simple JS scripts
-Summary(pl):	%{_pearname} - interfejs do tworzenia prostego JS
+Summary(pl.UTF-8):   %{_pearname} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	3
@@ -30,18 +30,18 @@ return.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 HTML_Javascript dostarcza dwie klasy:
 - HTML_Javascript do wykonywania podstawowych operacji JavaScript
 - HTML_Javascript_Convert do konwersji zmiennych
-Moøliwe jest zapisanie wyniku do pliku, na standardowe wyj∂cie
-(wypisanie) lub po prostu zwrÛcenie jako zmiennej.
+Mo≈ºliwe jest zapisanie wyniku do pliku, na standardowe wyj≈õcie
+(wypisanie) lub po prostu zwr√≥cenie jako zmiennej.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
@@ -50,7 +50,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
