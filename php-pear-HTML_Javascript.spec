@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an interface for creating simple JS scripts
-Summary(pl.UTF-8):   %{_pearname} - interfejs do tworzenia prostego JS
+Summary(pl.UTF-8):	%{_pearname} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	3
@@ -41,7 +41,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
