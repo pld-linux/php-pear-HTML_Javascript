@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - an interface for creating simple JS scripts
 Summary(pl.UTF-8):	%{_pearname} - interfejs do tworzenia prostego JS
 Name:		php-pear-%{_pearname}
-Version:	1.1.1
-Release:	4
+Version:	1.1.2
+Release:	1
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	5381cb0a53d8185b3a276daacb4f7655
+# Source0-md5:	be4770887ba2f727e1d40d709ec24678
 URL:		http://pear.php.net/package/HTML_Javascript/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -24,18 +24,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Provides two classes:
 - HTML_Javascript for performing basic JS operations
-- HTML_Javascript_Convert for converting variables
-Allow output data to a file, to the standart output (print), or
-return.
+- HTML_Javascript_Convert for converting variables Allow output data
+  to a file, to the standart output (print), or return.
 
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
 HTML_Javascript dostarcza dwie klasy:
 - HTML_Javascript do wykonywania podstawowych operacji JavaScript
-- HTML_Javascript_Convert do konwersji zmiennych
-Możliwe jest zapisanie wyniku do pliku, na standardowe wyjście
-(wypisanie) lub po prostu zwrócenie jako zmiennej.
+- HTML_Javascript_Convert do konwersji zmiennych Możliwe jest
+  zapisanie wyniku do pliku, na standardowe wyjście (wypisanie) lub po
+  prostu zwrócenie jako zmiennej.
 
 Ta klasa ma w PEAR status: %{_status}.
 
@@ -44,8 +43,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
